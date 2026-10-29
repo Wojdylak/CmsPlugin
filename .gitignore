@@ -11,9 +11,11 @@
 
 .phpunit.result.cache
 
+/behat.php
 /behat.yaml
 /phpstan.neon
 
 /tests/TestApplication/.env.local
 /tests/TestApplication/.env.*.local
 /var/
+/compose.override.yml

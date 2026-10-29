@@ -1,0 +1,337 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Controller\\Helper\\FormErrorsFlashHelper\:\:addFlashErrors\(\) has parameter \$form with generic interface Symfony\\Component\\Form\\FormInterface but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Controller/Helper/FormErrorsFlashHelper.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Controller\\Helper\\FormErrorsFlashHelperInterface\:\:addFlashErrors\(\) has parameter \$form with generic interface Symfony\\Component\\Form\\FormInterface but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Controller/Helper/FormErrorsFlashHelperInterface.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Controller\\MediaController\:\:getFormForResource\(\) return type with generic interface Symfony\\Component\\Form\\FormInterface does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Controller/MediaController.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Controller\\PageController\:\:getFormForResource\(\) return type with generic interface Symfony\\Component\\Form\\FormInterface does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Controller/PageController.php
+
+		-
+			message: '#^Unable to resolve the template type TDefault in call to method Symfony\\Component\\HttpFoundation\\InputBag\<string\>\:\:get\(\)$#'
+			identifier: argument.templateType
+			count: 1
+			path: src/Controller/PageController.php
+
+		-
+			message: '#^PHPDoc tag @var with type Symfony\\Component\\Config\\Definition\\ConfigurationInterface is not subtype of type Sylius\\CmsPlugin\\DependencyInjection\\Configuration\.$#'
+			identifier: varTag.type
+			count: 1
+			path: src/DependencyInjection/SyliusCmsExtension.php
+
+		-
+			message: '#^Access to protected property Sylius\\CmsPlugin\\Entity\\Block\|Sylius\\CmsPlugin\\Entity\\Page\:\:\$contentElements\.$#'
+			identifier: property.protected
+			count: 1
+			path: src/Entity/Block.php
+
+		-
+			message: '#^PHPDoc tag @var with type Sylius\\CmsPlugin\\Entity\\Block\|Sylius\\CmsPlugin\\Entity\\Media\|Sylius\\CmsPlugin\\Entity\\Page is not subtype of native type \$this\(Sylius\\CmsPlugin\\Entity\\Block\)\.$#'
+			identifier: varTag.nativeType
+			count: 2
+			path: src/Entity/Block.php
+
+		-
+			message: '#^PHPDoc tag @var with type Sylius\\CmsPlugin\\Entity\\Block\|Sylius\\CmsPlugin\\Entity\\Page is not subtype of native type \$this\(Sylius\\CmsPlugin\\Entity\\Block\)\.$#'
+			identifier: varTag.nativeType
+			count: 2
+			path: src/Entity/Block.php
+
+		-
+			message: '#^PHPDoc tag @var with type Sylius\\CmsPlugin\\Entity\\Block\|Sylius\\CmsPlugin\\Entity\\Media\|Sylius\\CmsPlugin\\Entity\\Page is not subtype of native type \$this\(Sylius\\CmsPlugin\\Entity\\Media\)\.$#'
+			identifier: varTag.nativeType
+			count: 2
+			path: src/Entity/Media.php
+
+		-
+			message: '#^PHPDoc tag @var with type Sylius\\CmsPlugin\\Entity\\Block\|Sylius\\CmsPlugin\\Entity\\Media\|Sylius\\CmsPlugin\\Entity\\Page is not subtype of native type \$this\(Sylius\\CmsPlugin\\Entity\\Page\)\.$#'
+			identifier: varTag.nativeType
+			count: 2
+			path: src/Entity/Page.php
+
+		-
+			message: '#^PHPDoc tag @var with type Sylius\\CmsPlugin\\Entity\\Block\|Sylius\\CmsPlugin\\Entity\\Page is not subtype of native type \$this\(Sylius\\CmsPlugin\\Entity\\Page\)\.$#'
+			identifier: varTag.nativeType
+			count: 2
+			path: src/Entity/Page.php
+
+		-
+			message: '#^PHPDoc tag @property for property Sylius\\CmsPlugin\\Entity\\Trait\\ContentElementsAwareTrait\:\:\$contentElements contains generic interface Doctrine\\Common\\Collections\\Collection but does not specify its types\: TKey, T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Entity/Trait/ContentElementsAwareTrait.php
+
+		-
+			message: '#^Trait Sylius\\CmsPlugin\\Entity\\Trait\\LocaleAwareTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Entity/Trait/LocaleAwareTrait.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Form\\DataTransformer\\ContentElementDataTransformerChecker\:\:check\(\) has parameter \$builder with generic interface Symfony\\Component\\Form\\FormBuilderInterface but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/DataTransformer/ContentElementDataTransformerChecker.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Form\\Normalizer\\TypedQueryBuilderNormalizer\:\:normalize\(\) has parameter \$options with generic interface Symfony\\Component\\OptionsResolver\\Options but does not specify its types\: TArray$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Normalizer/TypedQueryBuilderNormalizer.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Form\\Normalizer\\TypedQueryBuilderNormalizer\:\:resolveType\(\) has parameter \$options with generic interface Symfony\\Component\\OptionsResolver\\Options but does not specify its types\: TArray$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Normalizer/TypedQueryBuilderNormalizer.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Form\\Strategy\\Wysiwyg\\AbstractWysiwygStrategy\:\:buildView\(\) has parameter \$form with generic interface Symfony\\Component\\Form\\FormInterface but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Strategy/Wysiwyg/AbstractWysiwygStrategy.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Form\\Strategy\\Wysiwyg\\QuillStrategy\:\:buildView\(\) has parameter \$form with generic interface Symfony\\Component\\Form\\FormInterface but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Strategy/Wysiwyg/QuillStrategy.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Form\\Strategy\\Wysiwyg\\TrixStrategy\:\:buildView\(\) has parameter \$form with generic interface Symfony\\Component\\Form\\FormInterface but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Strategy/Wysiwyg/TrixStrategy.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Form\\Strategy\\Wysiwyg\\WysiwygStrategyInterface\:\:buildView\(\) has parameter \$form with generic interface Symfony\\Component\\Form\\FormInterface but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Strategy/Wysiwyg/WysiwygStrategyInterface.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\BlockAutocompleteType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/BlockAutocompleteType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\CollectionAutocompleteType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/CollectionAutocompleteType.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Form\\Type\\CollectionType\:\:addContentField\(\) has parameter \$form with generic interface Symfony\\Component\\Form\\FormInterface but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/CollectionType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\ContentConfigurationType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentConfigurationType.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Form\\Type\\ContentConfigurationType\:\:__construct\(\) has parameter \$actionConfigurationTypes with generic interface Symfony\\Component\\Form\\FormTypeInterface but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentConfigurationType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\ContentElementChoiceType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentElementChoiceType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\ContentElementType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentElementType.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Form\\Type\\ContentElements\\ContentElementConfigurationType\:\:__construct\(\) has parameter \$actionConfigurationTypes with generic interface Symfony\\Component\\Form\\FormTypeInterface but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentElements/ContentElementConfigurationType.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Form\\Type\\ContentElements\\ContentElementConfigurationType\:\:addElementFields\(\) has parameter \$form with generic interface Symfony\\Component\\Form\\FormInterface but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentElements/ContentElementConfigurationType.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Form\\Type\\ContentElements\\ContentElementConfigurationType\:\:resolveElementType\(\) has parameter \$form with generic interface Symfony\\Component\\Form\\FormInterface but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentElements/ContentElementConfigurationType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\ContentElements\\HeadingContentElementType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentElements/HeadingContentElementType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\ContentElements\\MultipleMediaContentElementType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentElements/MultipleMediaContentElementType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\ContentElements\\PagesCollectionContentElementType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentElements/PagesCollectionContentElementType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\ContentElements\\ProductsCarouselByTaxonContentElementType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentElements/ProductsCarouselByTaxonContentElementType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\ContentElements\\ProductsCarouselContentElementType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentElements/ProductsCarouselContentElementType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\ContentElements\\ProductsGridByTaxonContentElementType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentElements/ProductsGridByTaxonContentElementType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\ContentElements\\ProductsGridContentElementType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentElements/ProductsGridContentElementType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\ContentElements\\SingleMediaContentElementType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentElements/SingleMediaContentElementType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\ContentElements\\SpacerContentElementType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentElements/SpacerContentElementType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\ContentElements\\TaxonsListContentElementType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentElements/TaxonsListContentElementType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\ContentElements\\TextareaContentElementType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/ContentElements/TextareaContentElementType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\MediaAutocompleteType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/MediaAutocompleteType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\PageAutocompleteType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/PageAutocompleteType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\TemplateAutocompleteType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/TemplateAutocompleteType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\Translation\\ContentConfigurationTranslationsType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/Translation/ContentConfigurationTranslationsType.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Form\\Type\\Translation\\ContentConfigurationTranslationsType\:\:mapDataToForms\(\) has parameter \$forms with generic interface Symfony\\Component\\Form\\FormInterface but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/Translation/ContentConfigurationTranslationsType.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Form\\Type\\Translation\\ContentConfigurationTranslationsType\:\:mapFormsToData\(\) has parameter \$forms with generic interface Symfony\\Component\\Form\\FormInterface but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/Translation/ContentConfigurationTranslationsType.php
+
+		-
+			message: '#^PHPDoc tag @var for variable \$formsArray contains generic interface Symfony\\Component\\Form\\FormInterface but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/Translation/ContentConfigurationTranslationsType.php
+
+		-
+			message: '#^Class Sylius\\CmsPlugin\\Form\\Type\\WysiwygType extends generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Form/Type/WysiwygType.php
+
+		-
+			message: '#^Call to function is_array\(\) with array\<string, Sylius\\CmsPlugin\\Form\\Strategy\\Wysiwyg\\WysiwygStrategyInterface\> will always evaluate to true\.$#'
+			identifier: function.alreadyNarrowedType
+			count: 1
+			path: src/Resolver/WysiwygStrategyResolver.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Sorter\\CollectionsSorter\:\:updateCollectionsArray\(\) should return array\<array\<string, mixed\>\> but returns array\<array\<int\|string, mixed\>\>\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Sorter/CollectionsSorter.php
+
+		-
+			message: '#^PHPDoc tag @var with type Sylius\\CmsPlugin\\Entity\\PageInterface is not subtype of type array\<string, mixed\>\.$#'
+			identifier: varTag.type
+			count: 1
+			path: src/Sorter/CollectionsSorter.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Twig\\Component\\Block\\FormComponent\:\:__construct\(\) has parameter \$formClass with generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Twig/Component/Block/FormComponent.php
+
+		-
+			message: '#^Method Sylius\\CmsPlugin\\Twig\\Component\\Page\\FormComponent\:\:__construct\(\) has parameter \$formClass with generic class Symfony\\Component\\Form\\AbstractType but does not specify its types\: TData$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Twig/Component/Page/FormComponent.php
+
+		-
+			message: '#^PHPDoc tag @var with type array\<string\>\|false is not subtype of native type list\<string\>\.$#'
+			identifier: varTag.nativeType
+			count: 1
+			path: src/Twig/Parser/ContentParser.php
